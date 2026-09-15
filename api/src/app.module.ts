@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { AppController } from './app.controller';
 import { JobsModule } from './jobs/jobs.module';
 import { Job, JobEvent } from './jobs/job.entity';
 
@@ -26,5 +27,6 @@ const database = process.env.DATABASE_URL
     }),
     JobsModule,
   ],
+  controllers: [AppController],
 })
 export class AppModule {}
