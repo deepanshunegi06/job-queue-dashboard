@@ -2,8 +2,11 @@
 
 A small job queue manager: React + shadcn/ui on the front, NestJS + TypeORM on the back.
 
-- **Frontend:** https://job-queue-dashboard-phi.vercel.app
-- **API:** _add link after deploy_
+- **Frontend:** https://job-queue-dashboard-delta.vercel.app
+- **API:** https://job-queue-api-dkre.onrender.com
+
+The API is on Render's free tier, so the first request after a quiet spell takes
+a few seconds while the instance wakes up.
 
 ## Running it locally
 
