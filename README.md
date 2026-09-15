@@ -2,7 +2,7 @@
 
 A small job queue manager: React + shadcn/ui on the front, NestJS + TypeORM on the back.
 
-- **Frontend:** _add link after deploy_
+- **Frontend:** https://job-queue-dashboard-phi.vercel.app
 - **API:** _add link after deploy_
 
 ## Running it locally
